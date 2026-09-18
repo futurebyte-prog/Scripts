@@ -1,7 +1,7 @@
 def dirty_hex_to_string():
 
     messy_hex = input("Enter the Messy Hex:- ")
-    clean_hex = messy_hex.replace(",42","").replace("0x","")
+    clean_hex = messy_hex.replace(",","").replace("0x","")
     ascii_string = bytes.fromhex(clean_hex).decode('ascii')
     print(ascii_string)
 
