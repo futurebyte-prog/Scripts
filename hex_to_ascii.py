@@ -8,6 +8,7 @@ def dirty_hex_to_string():
 def clean_hex_to_string():
 
     clean_hex = input("Enter the clean Hex:-")
+    cleaner_hex = clean_hex.replace(",","")
     ascii_string = bytes.fromhex(clean_hex).decode('ascii')
     print(ascii_string)
 
