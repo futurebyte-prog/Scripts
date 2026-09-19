@@ -28,7 +28,7 @@ def main():
             print(substitution_decryption(text))
         elif usr_input == 3:
             print ("Exiting....")
-            sys.exit
+            sys.exit()
         else:
             print("Invalid Input")
             sys.exit()

@@ -1,0 +1,38 @@
+# Scripts
+
+A collection of small Python scripts I build while learning **Python, cybersecurity, and cryptography**.
+
+This repository is mainly for experimentation, practice, and documenting my progress.
+
+## Scripts
+
+| Script | Description |
+|---|---|
+| `ROT13.py` | ROT13 encoder/decoder |
+| `hex_to_ascii.py` | Converts hexadecimal data to ASCII text |
+| `substitution_cipher.py` | Basic monoalphabetic substitution cipher |
+| `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
+
+
+## Roadmap
+
+More scripts will be added as I learn new concepts.
+
+Planned areas include:
+
+- Classical cryptography
+- Cryptographic hashing
+- Encoding and decoding
+- File analysis
+- Security utilities
+- CTF-related scripting
+
+## Note
+
+These scripts are educational projects created while learning cybersecurity and cryptography.
+
+They are **not intended to provide modern secure cryptography**. For real-world security applications, use well-tested cryptographic libraries and protocols.
+
+---
+
+**Learning by building.** 
