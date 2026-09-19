@@ -9,7 +9,7 @@ This repository is mainly for experimentation, practice, and documenting my prog
 | Script | Description |
 |---|---|
 | `ROT13.py` | ROT13 encoder/decoder |
-| `hex_to_ascii.py` | Converts hexadecimal data to ASCII text |
+| `hex_to_ascii.py` | Converts hexadecimal data with ascii encoding to text |
 | `substitution_cipher.py` | Basic monoalphabetic substitution cipher |
 | `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
 | `substitution_cypher_stronger.py` | Add Random key generation to make encryption and decryption stronger |
