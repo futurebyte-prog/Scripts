@@ -12,7 +12,7 @@ This repository is mainly for experimentation, practice, and documenting my prog
 | `hex_to_ascii.py` | Converts hexadecimal data with ascii encoding to text |
 | `substitution_cipher.py` | Basic monoalphabetic substitution cipher |
 | `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
-| `substitution_cypher_stronger.py` | Add Random key generation to make encryption and decryption stronger |
+| `substitution_cypher_stronger.py` | Add Random key generation of 52! permutation to make encryption and decryption stronger |
 
 ## Roadmap
 
