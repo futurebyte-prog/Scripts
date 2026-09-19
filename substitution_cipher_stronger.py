@@ -1,4 +1,4 @@
-import random
+import secrets
 import string
 import sys
 
@@ -6,7 +6,7 @@ letters1 = list(string.ascii_uppercase)
 letters2 = list(string.ascii_lowercase)
 letters = letters1 + letters2
 
-random.shuffle(letters)
+secrets.SystemRandom().shuffle(letters)
 
 key = "".join(letters)
 value = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
