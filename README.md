@@ -14,6 +14,9 @@ This repository is mainly for experimentation, practice, and documenting my prog
 | `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
 | `substitution_cypher_stronger.py` | Add Random key generation of 52! permutation to make encryption and decryption stronger |
 
+___
+
+
 ## Roadmap
 
 More scripts will be added as I learn new concepts.
@@ -26,6 +29,8 @@ Planned areas include:
 - File analysis
 - Security utilities
 - CTF-related scripting
+
+ ___ 
 
 ## Note
 
