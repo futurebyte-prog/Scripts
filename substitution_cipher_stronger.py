@@ -40,6 +40,5 @@ def main():
 
         else:
             print("Invalid Input")
-
 main()
 
