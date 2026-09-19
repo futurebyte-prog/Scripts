@@ -18,12 +18,12 @@ def ROT13_encoder():
 
 def ROT13_decoder():
     text = input("Enter the text or string you want to decode in ROT13 :- ")
-    print(ROT13(ROT13(text)))
+    print(ROT13(text))
 
 def main():
     while True:
         print("1.Encode\n2.Decode\n3.Exit")
-        usr = input("Choose an option")
+        usr = input("Choose an option :-  ")
         if usr == "1":
             ROT13_encoder()
         elif usr == "2":
