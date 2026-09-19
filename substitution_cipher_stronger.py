@@ -40,7 +40,6 @@ def main():
 
         else:
             print("Invalid Input")
-            sys.exit()
 
 main()
 
