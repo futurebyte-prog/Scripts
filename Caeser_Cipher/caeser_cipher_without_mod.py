@@ -12,7 +12,7 @@ while True:
         print("Invalid data type")
 
 value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-key = value[(k-1):25]+value[0:k]
+key = value[k:]+value[:k]
 
 def caeser_cipher_encryption(text):
     table = str.maketrans(value,key)
