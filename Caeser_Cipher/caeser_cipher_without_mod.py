@@ -11,17 +11,43 @@ while True:
     except ValueError:
         print("Invalid data type")
 
-value = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 key = value[k:]+value[:k]
+value1 = "abcdefghijklmnopqrstuvwxyz"
+key1 = value1[k:]+value1[:k]
 
 def caeser_cipher_encryption(text):
-    table = str.maketrans(value,key)
-    output = text.translate(table)
-    return output 
+    result = ""
+    for char in text:
+        if char.isupper():
+            table = str.maketrans(value,key)
+            output = char.translate(table)
+            result += output
+        elif char.islower():
+            table1 = str.maketrans(value1,key1)
+            output1 = char.translate(table1)
+            result+= output1
+        else:
+            result += char
+    return result
+
+
 def caeser_cipher_decryption(text):
-    table = str.maketrans(key,value)
-    output = text.translate(table)
-    return output
+    result = ""
+    for char in text:
+        if char.isupper():
+            table = str.maketrans(key,value)
+            output = char.translate(table)
+            result += output
+        elif char.islower():
+            table1 = str.maketrans(key1,value1)
+            output1 = char.translate(table1)
+            result+= output1
+        else:
+            result += char
+    return result
+
+    
 
 def main():
     while True:
