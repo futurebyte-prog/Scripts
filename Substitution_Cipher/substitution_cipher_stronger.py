@@ -9,7 +9,7 @@ letters = letters1 + letters2
 secrets.SystemRandom().shuffle(letters)
 
 key = "".join(letters)
-value = letters1 + letters2
+value = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
 def substitution_encryption(text):
     table = str.maketrans(value,key)
