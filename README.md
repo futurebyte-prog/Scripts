@@ -13,6 +13,9 @@ This repository is mainly for experimentation, practice, and documenting my prog
 | `substitution_cipher.py` | Basic monoalphabetic substitution cipher |
 | `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
 | `substitution_cypher_stronger.py` | Add Random key generation of 52! permutation to make encryption and decryption stronger |
+| `caeser_cipher_without_mod.py` | Implementation of Caeser Cipher without using modular arithmetic by string slicing |
+| `Caeser_cipher.py` | Implementation of Caeser Cipher using Modular Arithmetic |
+
 
 ___
 
