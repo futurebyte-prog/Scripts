@@ -33,7 +33,7 @@ def caeser_cipher_decryption(text):
     return result
         
 def main():
-    print("1Encryption\n2.Decryption\n3.Exit")
+    print("1.Encryption\n2.Decryption\n3.Exit")
     user = input("Choose an option :-")
     if user == "1":
         text = input("Enter a string to encrypt:- ")
