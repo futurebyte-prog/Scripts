@@ -11,7 +11,7 @@ while True:
     except ValueError:
         print("Invalid data type")
 
-value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+value = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 key = value[k:]+value[:k]
 
 def caeser_cipher_encryption(text):
