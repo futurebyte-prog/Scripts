@@ -36,6 +36,8 @@ D(x) = (x-K)mod26
 
 Here we use the encrypted letter and key to subtract the key to the letter "x",and later use mod to find remainder left and remainder will be assign a value on the basis of above assumption
 
+___
+
 # Weakness
 
 It is not cryptographically secure because due to small key space of 26,make the brute force in it feasible and also due to one to one mapping of characters,there is also a feasible chance of frequency analysis
