@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Caesar Cipher is a substitution cipher in which each letter of alphabet shift by some fixed no.of position.
+Caesar Cipher is a substitution cipher in which each letter of alphabet shift by some fixed no. of position in the alphabet.
 
 ___
 
