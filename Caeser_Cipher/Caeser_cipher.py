@@ -1,14 +1,7 @@
 import sys
+import secrets
 
-while True:
-    try:
-        usr = int(input("Enter the shift from 0 to 25:-"))
-        if usr < 0 or usr > 25:
-            print("Invalid Input")
-        else:
-             break
-    except ValueError:
-        print("Invalid Data Type")
+usr = secrets.randbelow(26)
 
 def caeser_cipher_encryption(text):
     result = "" 
