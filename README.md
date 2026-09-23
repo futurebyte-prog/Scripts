@@ -9,7 +9,7 @@ This repository is mainly for experimentation, practice, and documenting my prog
 | Script | Description |
 |---|---|
 | <a href = "https://github.com/noob42-cyber/Scripts/blob/main/ROT13/ROT13.py">`ROT13.py`</a> | ROT13 encoder/decoder |
-| `hex_to_ascii.py` | Converts hexadecimal data with ascii encoding to text |
+| <a href = "https://github.com/noob42-cyber/Scripts/blob/main/hex_to_string/hex_to_ascii.py">`hex_to_ascii.py` </a> | Converts hexadecimal data with ascii encoding to text |
 | `substitution_cipher.py` | Basic monoalphabetic substitution cipher |
 | `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
 | `substitution_cypher_stronger.py` | Add Random key generation of 52! permutation to make encryption and decryption stronger |
