@@ -8,13 +8,13 @@ This repository is mainly for experimentation, practice, and documenting my prog
 
 | Script | Description |
 |---|---|
-| `ROT13.py` | ROT13 encoder/decoder |
-| `hex_to_ascii.py` | Converts hexadecimal data with ascii encoding to text |
-| `substitution_cipher.py` | Basic monoalphabetic substitution cipher |
-| `substitution_cipher_encryption_decryption.py` | Substitution cipher with encryption and decryption |
-| `substitution_cypher_stronger.py` | Add Random key generation of 52! permutation to make encryption and decryption stronger |
-| `caeser_cipher_without_mod.py` | Implementation of Caeser Cipher without using modular arithmetic by string slicing |
-| `Caeser_cipher.py` | Implementation of Caeser Cipher using Modular Arithmetic |
+| <a href = "https://github.com/noob42-cyber/Scripts/blob/main/ROT13/ROT13.py">`ROT13.py`</a> | ROT13 encoder/decoder |
+| <a href = "https://github.com/noob42-cyber/Scripts/blob/main/hex_to_string/hex_to_ascii.py">`hex_to_ascii.py` </a> | Converts hexadecimal data with ascii encoding to text |
+| <a href = "https://github.com/noob42-cyber/Scripts/blob/main/Substitution_Cipher/substitution_cipher.py">`substitution_cipher.py` </a> | Basic monoalphabetic substitution cipher |
+|<a href = "https://github.com/noob42-cyber/Scripts/blob/main/Substitution_Cipher/substitution_cipher_encryption_decryption.py"> `substitution_cipher_encryption_decryption.py` </a> | Substitution cipher with encryption and decryption |
+|<a href = "https://github.com/noob42-cyber/Scripts/blob/main/Substitution_Cipher/substitution_cipher_stronger.py"> `substitution_cypher_stronger.py` </a> | Add Random key generation of 52! permutation to make encryption and decryption stronger |
+| <a href = "https://github.com/noob42-cyber/Scripts/blob/main/Caeser_Cipher/caesar_cipher_without_mod.py">`caeser_cipher_without_mod.py`</a> | Implementation of Caesar Cipher without using modular arithmetic by string slicing |
+| <a href = "https://github.com/noob42-cyber/Scripts/blob/main/Caeser_Cipher/Caesar_cipher.py">`Caeser_cipher.py`</a> | Implementation of Caesar Cipher using Modular Arithmetic |
 
 
 ___
